@@ -10,7 +10,7 @@ The solution is obtained using integer linear programming via the package `pulp`
 
   ```python
   # Dictionary containing the `length: count` requirements.
-  # In the example below, we want 13 units of lengt 4, 9 units
+  # In the example below, we want 13 units of length 4, 9 units
   # of length 2.65, 36 units of length 0.7 and 18 units of length
   # 0.65.
   required_lengths = {4: 13, 2.65: 9, 0.7: 36, 0.65: 18}
